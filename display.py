@@ -1,5 +1,6 @@
-"""
 
+def print_main_menu():
+    print("""
 =================================
        COMPUTER STORE SYSTEM
 =================================
@@ -11,14 +12,10 @@
 5. Exit
 
 Choose an option:
+""")
 
-
-
-"""
-
-
-
-"""
+def print_products_menu():
+    print("""   
 --------- PRODUCTS MANAGEMENT ---------
 
 1. Add Product
@@ -27,6 +24,4 @@ Choose an option:
 4. Update Product
 5. Delete Product
 6. Back to Main Menu
-
-
-"""
+""")
